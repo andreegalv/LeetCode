@@ -9,6 +9,10 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Palindrome", "Easy\Palindro
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "RomanToInteger", "Easy\RomanToInteger\RomanToInteger.csproj", "{02B7E775-A614-463D-B101-DA3FA69B4B6F}"
 EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Easy", "Easy", "{A3AE5793-F3E9-46D9-ACA2-0E997F6B4D5A}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "LongestCommonPrefix", "Easy\LongestCommonPrefix\LongestCommonPrefix.csproj", "{62E65447-221C-43A7-824C-CC433C4D015D}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -30,5 +34,12 @@ Global
 		{02B7E775-A614-463D-B101-DA3FA69B4B6F}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{02B7E775-A614-463D-B101-DA3FA69B4B6F}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{02B7E775-A614-463D-B101-DA3FA69B4B6F}.Release|Any CPU.Build.0 = Release|Any CPU
+		{62E65447-221C-43A7-824C-CC433C4D015D}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{62E65447-221C-43A7-824C-CC433C4D015D}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{62E65447-221C-43A7-824C-CC433C4D015D}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{62E65447-221C-43A7-824C-CC433C4D015D}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{62E65447-221C-43A7-824C-CC433C4D015D} = {A3AE5793-F3E9-46D9-ACA2-0E997F6B4D5A}
 	EndGlobalSection
 EndGlobal
