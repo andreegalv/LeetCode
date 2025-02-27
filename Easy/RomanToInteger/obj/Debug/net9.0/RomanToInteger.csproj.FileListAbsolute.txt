@@ -1,0 +1,14 @@
+C:\Users\Andree\Desktop\LeetCode\RomanToInteger\obj\Debug\net9.0\RomanToInteger.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Andree\Desktop\LeetCode\RomanToInteger\obj\Debug\net9.0\RomanToInteger.AssemblyInfoInputs.cache
+C:\Users\Andree\Desktop\LeetCode\RomanToInteger\obj\Debug\net9.0\RomanToInteger.AssemblyInfo.cs
+C:\Users\Andree\Desktop\LeetCode\RomanToInteger\obj\Debug\net9.0\RomanToInteger.csproj.CoreCompileInputs.cache
+C:\Users\Andree\Desktop\LeetCode\RomanToInteger\bin\Debug\net9.0\RomanToInteger.exe
+C:\Users\Andree\Desktop\LeetCode\RomanToInteger\bin\Debug\net9.0\RomanToInteger.deps.json
+C:\Users\Andree\Desktop\LeetCode\RomanToInteger\bin\Debug\net9.0\RomanToInteger.runtimeconfig.json
+C:\Users\Andree\Desktop\LeetCode\RomanToInteger\bin\Debug\net9.0\RomanToInteger.dll
+C:\Users\Andree\Desktop\LeetCode\RomanToInteger\bin\Debug\net9.0\RomanToInteger.pdb
+C:\Users\Andree\Desktop\LeetCode\RomanToInteger\obj\Debug\net9.0\RomanToInteger.dll
+C:\Users\Andree\Desktop\LeetCode\RomanToInteger\obj\Debug\net9.0\refint\RomanToInteger.dll
+C:\Users\Andree\Desktop\LeetCode\RomanToInteger\obj\Debug\net9.0\RomanToInteger.pdb
+C:\Users\Andree\Desktop\LeetCode\RomanToInteger\obj\Debug\net9.0\RomanToInteger.genruntimeconfig.cache
+C:\Users\Andree\Desktop\LeetCode\RomanToInteger\obj\Debug\net9.0\ref\RomanToInteger.dll

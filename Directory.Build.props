@@ -1,0 +1,9 @@
+<Project>
+    <PropertyGroup>
+	    <OutDir>$(MSBuildThisFileDirectory)/Build/$(MSBuildProjectName)</OutDir>
+        <TargetFramework>net9.0</TargetFramework>
+        <LangVersion>12.0</LangVersion>
+        <Nullable>enable</Nullable>
+	    <ImplicitUsings>enable</ImplicitUsings>
+    </PropertyGroup>
+</Project>
