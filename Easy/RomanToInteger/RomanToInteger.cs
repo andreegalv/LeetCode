@@ -1,24 +1,9 @@
-﻿namespace RomanToInteger
+namespace LeetCode.Easy.RomanToInteger
 {
-    using System;
     using System.Text;
 
-    public class Program
+    public static class RomanToInteger
     {
-        public static void Main(string[] args)
-        {
-            Console.WriteLine(Run("III"));
-
-            Console.WriteLine(Run("IV"));
-            Console.WriteLine(Run("VII"));
-            Console.WriteLine(Run("VIII"));
-            Console.WriteLine(Run("IX"));
-            Console.WriteLine(Run("XL"));
-
-            Console.WriteLine(Run("LVIII"));
-            Console.WriteLine(Run("MCMXCIV"));
-        }
-
         private static Dictionary<char, int> _romanNumbers = new()
         {
             { 'I', 1 },
@@ -30,7 +15,17 @@
             { 'M', 1000 },
         };
 
-        private static int Run(string s)
+        private static Dictionary<string, int> _substractionRules = new()
+        {
+            { "IV", 4 },
+            { "IX", 9 },
+            { "XL", 40 },
+            { "XC", 90 },
+            { "CD", 400 },
+            { "CM", 900 },
+        };
+
+        public static int Execute(string s)
         {
             List<(string Letter, int Value)> romanValues = s.Select(c => (c.ToString(), _romanNumbers[c])).ToList();
             int currentResult = 0;
@@ -62,16 +57,6 @@
 
             return currentResult;
         }
-
-        private static Dictionary<string, int> _substractionRules = new()
-        {
-            { "IV", 4 },
-            { "IX", 9 },
-            { "XL", 40 },
-            { "XC", 90 },
-            { "CD", 400 },
-            { "CM", 900 },
-        };
 
         private static bool IsSubstraction(string letter, out int value)
         {
